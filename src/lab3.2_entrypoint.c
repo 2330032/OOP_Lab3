@@ -3,13 +3,13 @@
 
 //3.2
 void raylib_start(void){
-    InitWindow(600,600, "Hello Lab");
+    InitWindow(600,600, "Lab 3.2");
     SetTargetFPS(60);
     float x = 0.0f; 
     float y = 0.0f;
 
     while(!WindowShouldClose()){
-        if (IsKeyDown(KEY_BACKSPACE)) {
+        if (IsKeyDown(KEY_ESCAPE)) {
             break;
         }
 
