@@ -1,7 +1,7 @@
 #include "entrypoint.h"
 #include "raylib.h"
 
-//3.2
+
 void raylib_start(void){
     InitWindow(600,600, "Lab 3.2");
     SetTargetFPS(60);
